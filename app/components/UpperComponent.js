@@ -103,7 +103,7 @@ const UpperComponent = () => {
           <div className="w-[30px] h-[30px] flex justify-center items-center bg-[#5030E5] rounded-md mx-4 cursor-pointer">
             <SpaceDashboardIcon className="text-[white]" />
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center cursor-pointer">
             <DragIndicatorIcon />
           </div>
         </div>
