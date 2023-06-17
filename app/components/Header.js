@@ -1,9 +1,12 @@
 "use client";
 
+import Kanban from "./Kanban";
+import UpperComponent from "./UpperComponent";
+
 const Header = () => {
   return (
     <>
-      <div class=" dark:bg-gray-900">
+      <div class="">
         {/* NAVBAR */}
         <nav class="bg-white border-b border-gray-200 px-4 py-2.5 dark:bg-gray-800 dark:border-gray-700 fixed left-0 right-0 top-0 z-50">
           <div class="flex flex-wrap justify-between items-center">
@@ -1279,7 +1282,10 @@ const Header = () => {
         </aside>
 
         {/* COMPONENTS BE PLACED HERE */}
-        <main className="p-4 md:ml-64 h-auto pt-20"></main>
+        <main className="p-4 md:ml-64 pt-20 bg-white h-screen">
+          <UpperComponent />
+          <Kanban />
+        </main>
       </div>
     </>
   );
