@@ -1,6 +1,6 @@
 "use client";
 
-import Kanban from "./Kanban";
+import Kanban from "./Kanban.jsx";
 import UpperComponent from "./UpperComponent";
 
 const Header = () => {
@@ -1282,7 +1282,7 @@ const Header = () => {
         </aside>
 
         {/* COMPONENTS BE PLACED HERE */}
-        <main className="p-4 md:ml-64 pt-20 bg-white h-screen overflow-auto w-5/6">
+        <main className="p-4 md:ml-64 pt-20 bg-white h-screen overflow-auto">
           <UpperComponent />
           <Kanban />
         </main>

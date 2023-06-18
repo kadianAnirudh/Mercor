@@ -2,16 +2,13 @@
 
 import { FiLink2 } from "react-icons/fi";
 import { GoPencil } from "react-icons/go";
-import { GoPeople } from "react-icons/go";
 import { AiOutlinePlus } from "react-icons/ai";
 import Button from "@mui/material/Button";
-import FilterAltIcon from "@mui/icons-material/Delete";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import FilterAltOffIcon from "@mui/icons-material/FilterAltOff";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import Avatar from "@mui/material/Avatar";
 import AvatarGroup from "@mui/material/AvatarGroup";
-import two from "./two.png";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import SpaceDashboardIcon from "@mui/icons-material/SpaceDashboard";
 import DragIndicatorIcon from "@mui/icons-material/DragIndicator";
